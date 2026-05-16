@@ -1,0 +1,153 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Baa-tou — Assistant Juridique Togolais
+ * Palette inspirée du drapeau togolais : vert (#118B32), jaune (#FFD700),
+ * rouge (#E31B23), blanc.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  --color-togo-green: var(--togo-green);
+  --color-togo-yellow: var(--togo-yellow);
+  --color-togo-red: var(--togo-red);
+
+  --font-display: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+}
+
+:root {
+  --radius: 0.875rem;
+
+  /* Togo flag */
+  --togo-green: oklch(0.55 0.16 145);
+  --togo-yellow: oklch(0.86 0.17 92);
+  --togo-red: oklch(0.58 0.22 28);
+
+  --background: oklch(0.99 0.005 100);
+  --foreground: oklch(0.18 0.02 145);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.02 145);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.02 145);
+
+  --primary: var(--togo-green);
+  --primary-foreground: oklch(0.99 0.005 100);
+
+  --secondary: oklch(0.96 0.04 92);
+  --secondary-foreground: oklch(0.25 0.05 92);
+
+  --muted: oklch(0.96 0.01 145);
+  --muted-foreground: oklch(0.45 0.02 145);
+
+  --accent: var(--togo-yellow);
+  --accent-foreground: oklch(0.2 0.05 92);
+
+  --destructive: var(--togo-red);
+  --destructive-foreground: oklch(0.99 0.005 100);
+
+  --border: oklch(0.9 0.02 145);
+  --input: oklch(0.93 0.02 145);
+  --ring: var(--togo-green);
+}
+
+.dark {
+  --background: oklch(0.16 0.02 145);
+  --foreground: oklch(0.97 0.01 100);
+  --card: oklch(0.22 0.025 145);
+  --card-foreground: oklch(0.97 0.01 100);
+  --popover: oklch(0.22 0.025 145);
+  --popover-foreground: oklch(0.97 0.01 100);
+  --primary: oklch(0.65 0.16 145);
+  --primary-foreground: oklch(0.12 0.02 145);
+  --secondary: oklch(0.28 0.04 92);
+  --secondary-foreground: oklch(0.95 0.05 92);
+  --muted: oklch(0.26 0.02 145);
+  --muted-foreground: oklch(0.7 0.02 145);
+  --accent: oklch(0.7 0.15 92);
+  --accent-foreground: oklch(0.15 0.05 92);
+  --destructive: oklch(0.6 0.2 28);
+  --destructive-foreground: oklch(0.97 0.01 100);
+  --border: oklch(0.3 0.03 145 / 60%);
+  --input: oklch(0.3 0.03 145 / 60%);
+  --ring: oklch(0.65 0.16 145);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-display);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Drapeau togolais — 4 couleurs : vert, jaune, rouge, blanc (étoile) */
+.togo-flag-bar {
+  background: linear-gradient(
+    90deg,
+    var(--togo-green) 0%,
+    var(--togo-green) 25%,
+    var(--togo-yellow) 25%,
+    var(--togo-yellow) 50%,
+    #ffffff 50%,
+    #ffffff 75%,
+    var(--togo-red) 75%,
+    var(--togo-red) 100%
+  );
+  box-shadow: inset 0 0 0 1px color-mix(in oklch, var(--foreground) 8%, transparent);
+}
+
+.togo-gradient-soft {
+  background:
+    radial-gradient(ellipse at top left, color-mix(in oklch, var(--togo-green) 18%, transparent), transparent 60%),
+    radial-gradient(ellipse at bottom right, color-mix(in oklch, var(--togo-red) 14%, transparent), transparent 60%),
+    var(--background);
+}
+
+.prose-chat {
+  line-height: 1.65;
+}
+.prose-chat p { margin-bottom: 0.6rem; }
+.prose-chat strong { color: var(--togo-green); font-weight: 700; }
+.prose-chat ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 0.6rem; }
+.prose-chat ol { list-style: decimal; padding-left: 1.25rem; margin-bottom: 0.6rem; }
+.prose-chat h1, .prose-chat h2, .prose-chat h3 {
+  font-weight: 700; margin-top: 0.8rem; margin-bottom: 0.4rem; color: var(--foreground);
+}
+.prose-chat code {
+  background: var(--muted); padding: 0.1rem 0.35rem; border-radius: 0.3rem; font-size: 0.9em;
+}

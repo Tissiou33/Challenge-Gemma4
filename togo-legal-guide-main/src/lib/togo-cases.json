@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "affaire": "Affaire Abdoul Aziz Goma",
+    "personne": "Abdoul Aziz Goma (citoyen togolais-irlandais, défenseur des droits humains)",
+    "date_arrestation": "2018-11-08",
+    "date_jugement": "2025-02",
+    "statut": "Condamné — en détention, grève de la faim déclarée en nov. 2025",
+    "chefs_accusation": [
+      "Atteinte à la sécurité nationale",
+      "Participation à des manifestations pacifiques"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — Loi n° 2015-010 du 24 novembre 2015 (atteinte à la sûreté de l'État)",
+      "Code de procédure pénale — Loi n° 83-1 du 2 mars 1983"
+    ],
+    "articles_specifiques": [],
+    "peine_prononcee": "10 ans d'emprisonnement",
+    "peine_legale_maximale": "Variable selon infraction (jusqu'à réclusion à perpétuité pour crimes contre la sûreté de l'État)",
+    "juridiction": "Tribunal de Lomé",
+    "nature_litige": "Liberté d'expression / Droits humains / Détention arbitraire",
+    "organisations_alertees": [
+      "ONU — Rapporteuse spéciale sur les défenseurs des droits humains (Mary Lawlor)",
+      "OHCHR"
+    ],
+    "contexte": "Arrêté en 2018 lors de manifestations, maintenu en détention préventive pendant 7 ans avant jugement expéditif d'une journée. L'ONU exige sa libération.",
+    "source": "https://www.ohchr.org/fr/press-releases/2025/12/un-expert-urges-togo-release-human-rights-defender-abdoul-aziz-goma"
+  },
+  {
+    "id": 2,
+    "affaire": "Affaire Aamron (1re arrestation)",
+    "personne": "Tchala Essowè Narcisse dit Aamron (rappeur engagé)",
+    "date_arrestation": "2025-05-26",
+    "date_jugement": null,
+    "statut": "Libéré le 21/06/2025 sans poursuites officielles — interné de force à l'hôpital psychiatrique de Zébé",
+    "chefs_accusation": [
+      "Aucun chef officiel communiqué",
+      "Présumés : diffamation, critique du pouvoir via réseaux sociaux"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — Art. 290 (diffamation)",
+      "Code pénal togolais — Art. 301",
+      "Code de procédure pénale — interdiction des arrestations domiciliaires entre 18h et 6h"
+    ],
+    "articles_specifiques": ["Art. 290 CP", "Art. 301 CP"],
+    "peine_prononcee": "Aucune — libéré sans condamnation",
+    "peine_legale_maximale": "Non applicable",
+    "juridiction": "Parquet de Lomé",
+    "nature_litige": "Liberté d'expression / Arrestation arbitraire / Internement psychiatrique forcé",
+    "organisations_alertees": [
+      "Amnesty International",
+      "FIDH",
+      "Société civile togolaise"
+    ],
+    "contexte": "Arrêté sans mandat à son domicile de nuit par ~50 agents armés. Interné à l'hôpital psychiatrique sans accord familial ni présentation à un juge. Libéré après pression internationale et manifestations nationales.",
+    "source": "https://www.jeuneafrique.com/1699708/politique/au-togo-le-rappeur-aamron-a-ete-libere/"
+  },
+  {
+    "id": 3,
+    "affaire": "Affaire Aamron (2e arrestation)",
+    "personne": "Tchala Essowè Narcisse dit Aamron (rappeur engagé)",
+    "date_arrestation": "2025-09-19",
+    "date_jugement": null,
+    "statut": "Inculpé — libéré sous contrôle judiciaire le 19/09/2025",
+    "chefs_accusation": [
+      "Trouble aggravé à l'ordre public",
+      "Appel au soulèvement populaire",
+      "Incitation de l'armée à la révolte"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — Loi n° 2015-010 du 24 novembre 2015",
+      "Art. 187 CP (participation à groupement en vue de troubler l'ordre)"
+    ],
+    "articles_specifiques": ["Art. 182 CP", "Art. 183 CP", "Art. 187 CP"],
+    "peine_prononcee": "Contrôle judiciaire",
+    "peine_legale_maximale": "1 à 5 ans d'emprisonnement (trouble à l'ordre public / incitation à la révolte)",
+    "juridiction": "Parquet de Lomé / DCPJ",
+    "nature_litige": "Liberté d'expression / Ordre public",
+    "organisations_alertees": ["Société civile", "Opposition togolaise"],
+    "contexte": "Réarrêté à son domicile après avoir été placé sous contrôle judiciaire suite à sa première arrestation de mai 2025. Libéré sous contrôle judiciaire le soir même.",
+    "source": "https://www.jeuneafrique.com/1723514/politique/au-togo-lex-ministre-des-armees-inculpee-le-rappeur-aamron-en-liberte-provisoire/"
+  },
+  {
+    "id": 4,
+    "affaire": "Affaire Honoré Sitsopé Sokpor dit Affectio (1re arrestation)",
+    "personne": "Honoré Sitsopé Sokpor dit Affectio (poète et cyber-activiste)",
+    "date_arrestation": "2025-01",
+    "date_jugement": null,
+    "statut": "Libéré sous contrôle judiciaire le 31/12/2025 (grâce présidentielle)",
+    "chefs_accusation": [
+      "Incitation à la révolte",
+      "Publication sur réseaux sociaux d'un poème critique du pouvoir (titre : 'Fais ta part')"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — Art. 187 (incitation à la révolte)",
+      "Loi n° 2015-010 du 24 novembre 2015"
+    ],
+    "articles_specifiques": ["Art. 187 CP"],
+    "peine_prononcee": "Détention provisoire — libéré sous contrôle judiciaire",
+    "peine_legale_maximale": "1 à 5 ans d'emprisonnement",
+    "juridiction": "Tribunal de Lomé",
+    "nature_litige": "Liberté d'expression / Cybercriminalité / Arrestation arbitraire",
+    "organisations_alertees": [
+      "ONU — Rapporteuse spéciale sur les défenseurs des droits humains",
+      "Opposition — Front Touche pas à ma Constitution"
+    ],
+    "contexte": "Arrêté pour un poème publié sur les réseaux sociaux. Bénéficiaire de la grâce présidentielle accordée à 1 500 détenus fin décembre 2025.",
+    "source": "https://www.africaradio.com/actualite-114252-togo-le-poete-et-activiste-affectio-ecroue-quelques-mois-apres-sa-liberation-sous-controle-judiciaire"
+  },
+  {
+    "id": 5,
+    "affaire": "Affaire Honoré Sitsopé Sokpor dit Affectio (2e arrestation)",
+    "personne": "Honoré Sitsopé Sokpor dit Affectio (poète et cyber-activiste)",
+    "date_arrestation": "2025-04 / réincarcéré 2026-05-04",
+    "date_jugement": null,
+    "statut": "Réincarcéré le 4 mai 2026 — contrôle judiciaire annulé par le juge d'instruction",
+    "chefs_accusation": [
+      "Divulgation d'images de chantiers publics à des mouvements activistes de la diaspora (M66 / Mouvement du 6 juin)",
+      "Violation des conditions de contrôle judiciaire"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — infractions contre la sûreté de l'État",
+      "Code de procédure pénale — violation du contrôle judiciaire"
+    ],
+    "articles_specifiques": [],
+    "peine_prononcee": "Réincarcération — instruction en cours",
+    "peine_legale_maximale": "Variable selon qualification retenue",
+    "juridiction": "Juge d'instruction de Lomé",
+    "nature_litige": "Liberté d'expression / Secret défense / Droits numériques",
+    "organisations_alertees": [
+      "ANC (parti Alliance Nationale pour le Changement)",
+      "Front Touche pas à ma Constitution"
+    ],
+    "contexte": "Réincarcéré pour avoir envoyé des photos de chantiers publics à des mouvements activistes de la diaspora togolaise.",
+    "source": "https://timbuktu-institute.org/index.php/toutes-l-actualites/item/1530-togo-affaire-affectio-tensions-politiques-et-rapprochement-avec-l-inde"
+  },
+  {
+    "id": 6,
+    "affaire": "Affaire Marguerite Gnakadé Essossimna",
+    "personne": "Marguerite Gnakadé Essossimna (ancienne ministre des Armées 2020-2022, belle-sœur de Faure Gnassingbé)",
+    "date_arrestation": "2025-09-17",
+    "date_jugement": null,
+    "statut": "Inculpée — sous mandat de dépôt (instruction en cours)",
+    "chefs_accusation": [
+      "Incitation à la révolte contre l'autorité de l'État",
+      "Publication de fausses nouvelles de nature à ébranler la discipline ou le moral des armées",
+      "Troubles aggravés à l'ordre public",
+      "Entrave au bon fonctionnement de la justice",
+      "Destruction délibérée de ~1 000 preuves en garde à vue"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — Loi n° 2015-010 du 24 novembre 2015",
+      "Art. 187 CP (incitation à la révolte)",
+      "Loi sur la presse et la communication"
+    ],
+    "articles_specifiques": ["Art. 187 CP", "Art. 182 CP"],
+    "peine_prononcee": "Mandat de dépôt — instruction judiciaire en cours",
+    "peine_legale_maximale": "5 à 10 ans d'emprisonnement selon qualifications",
+    "juridiction": "Juge d'instruction de Lomé",
+    "nature_litige": "Liberté d'expression / Sûreté de l'État / Droits politiques",
+    "organisations_alertees": ["Société civile", "Opposition togolaise", "Presse internationale"],
+    "contexte": "Ancienne ministre ayant publiquement appelé à la démission de Faure Gnassingbé. Accusée également d'avoir détruit des preuves lors de sa garde à vue.",
+    "source": "https://www.ouestaf.com/togo-arrestation-de-voix-discordantes-le-procureur-sexplique/"
+  },
+  {
+    "id": 7,
+    "affaire": "Arrestations massives des manifestants — 5 et 6 juin 2025",
+    "personne": "Au moins 81 manifestants (dont Armand Agbleze, Osei Agbagno, Yawo Atitso, Julien Kataka, Abdoul Lamboni, Chimène Apevon, Mario Zodji, Bertin Bandiangou)",
+    "date_arrestation": "2025-06-05 / 2025-06-06",
+    "date_jugement": "2025-06 (comparution immédiate pour 6 d'entre eux)",
+    "statut": "10 libérés le 01/01/2026 sous contrôle judiciaire avec interdiction de voyager — 3 encore détenus à la date de publication",
+    "chefs_accusation": [
+      "Participation à manifestation non autorisée",
+      "Troubles à l'ordre public",
+      "Atteinte à la sûreté de l'État (pour certains)"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — Art. 182 (manifestation non autorisée)",
+      "Art. 183 CP (dommages lors de manifestations)",
+      "Constitution togolaise Art. 25 et 30 (liberté d'expression et de réunion)",
+      "PIDCP — Art. 19 et 21"
+    ],
+    "articles_specifiques": ["Art. 182 CP", "Art. 183 CP"],
+    "peine_prononcee": "Détentions provisoires — contrôle judiciaire pour ceux libérés",
+    "peine_legale_maximale": "1 à 6 mois d'emprisonnement + amende de 20 000 à 100 000 FCFA (Art. 182 CP)",
+    "juridiction": "Tribunal de première instance de Lomé",
+    "nature_litige": "Liberté de réunion / Répression politique / Droits fondamentaux",
+    "organisations_alertees": [
+      "FIDH",
+      "OMCT (Observatoire pour la protection des défenseurs des droits humains)",
+      "Amnesty International",
+      "ONU — Experts des droits de l'homme",
+      "Commission africaine des droits de l'Homme et des peuples"
+    ],
+    "contexte": "Manifestations contre la réforme constitutionnelle permettant à Faure Gnassingbé de se maintenir sans limite de mandats. 7 manifestants décédés selon l'opposition (5 'par noyade' selon le parquet). Cas de torture signalés en détention. Journaliste de TV5 Monde intimidée et contrainte d'effacer ses images.",
+    "source": "https://www.fidh.org/fr/themes/defenseurs-des-droits-humains/togo-au-moins-81-arrestations-arbitraires-et-actes-de-torture-contre"
+  },
+  {
+    "id": 8,
+    "affaire": "Affaire Steeve Rouyar (ressortissant français)",
+    "personne": "Steeve Rouyar (expert-comptable français expatrié au Togo)",
+    "date_arrestation": "2025-06-06",
+    "date_jugement": null,
+    "statut": "En détention préventive — instruction en cours (à sept. 2025)",
+    "chefs_accusation": [
+      "Atteinte à la sûreté de l'État",
+      "Participation à manifestation non autorisée"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — infractions contre la sûreté de l'État",
+      "Loi n° 2015-010 du 24 novembre 2015"
+    ],
+    "articles_specifiques": [],
+    "peine_prononcee": "Détention préventive — condamnation potentiellement lourde",
+    "peine_legale_maximale": "Réclusion à temps ou perpétuelle selon qualification",
+    "juridiction": "Parquet de Lomé",
+    "nature_litige": "Droits fondamentaux / Liberté de réunion / Détention arbitraire",
+    "organisations_alertees": ["Quai d'Orsay (pas de commentaire officiel)", "Famille"],
+    "contexte": "Arrêté lors des manifestations du 6 juin 2025. Famille dénonce des conditions de détention inhumaines : pas de nourriture régulière, dort à même le sol, fortement amaigri.",
+    "source": "https://www.jeuneafrique.com/1721210/politique/au-togo-un-francais-detenu-pour-atteinte-a-la-surete-de-letat-ses-proches-se-disent-tres-inquiets/"
+  },
+  {
+    "id": 9,
+    "affaire": "Affaire TOGOCOM S.A vs TROPIK CONSULTING SARL U",
+    "personne": "TOGOCOM S.A (société mère) & TOGOCELLUAIRE S.A (filiale) / TROPIK CONSULTING SARL U (plaignant)",
+    "date_arrestation": null,
+    "date_jugement": "2024-05-07 (Jugement n°0285/2024)",
+    "statut": "Jugement rendu — condamnation solidaire confirmée",
+    "chefs_accusation": [
+      "Confusion entretenue entre société mère et filiale dans une relation contractuelle",
+      "Inexécution contractuelle"
+    ],
+    "lois_evoquees": [
+      "Acte Uniforme OHADA sur le droit des sociétés commerciales",
+      "Acte Uniforme OHADA relatif au droit commercial général (15 décembre 2010)",
+      "Acte Uniforme OHADA sur les procédures simplifiées de recouvrement (17 octobre 2023, en vigueur 16 fév. 2024)"
+    ],
+    "articles_specifiques": [],
+    "peine_prononcee": "Condamnation solidaire de TOGOCOM S.A et TOGOCELLUAIRE S.A (montant non précisé)",
+    "peine_legale_maximale": "Dommages et intérêts — droit commercial",
+    "juridiction": "Tribunal de Commerce de Lomé",
+    "nature_litige": "Litige commercial / Responsabilité de la société mère pour les dettes de la filiale",
+    "organisations_alertees": [],
+    "contexte": "Confirmation de jurisprudence : la société mère peut être tenue solidairement des dettes de sa filiale lorsqu'elle a créé une confusion dans la relation contractuelle.",
+    "source": "https://tribunaldecommercedelome.tg/download/495"
+  },
+  {
+    "id": 10,
+    "affaire": "Affaire Agbeyomè Kodjo",
+    "personne": "Agbeyomè Kodjo (ancien Premier ministre, opposant politique)",
+    "date_arrestation": "2020-04",
+    "date_jugement": null,
+    "statut": "Arrestation et détention préventive (2020) — situation post-judiciaire non précisée",
+    "chefs_accusation": [
+      "Atteinte à la sûreté intérieure de l'État",
+      "Usage des insignes de l'État",
+      "Nominations illégales",
+      "Troubles à l'ordre public"
+    ],
+    "lois_evoquees": [
+      "Code pénal togolais — infractions contre la sûreté intérieure de l'État",
+      "Loi n° 2015-010 du 24 novembre 2015"
+    ],
+    "articles_specifiques": [],
+    "peine_prononcee": "Détention préventive",
+    "peine_legale_maximale": "Réclusion à temps — selon infractions retenues",
+    "juridiction": "Parquet de Lomé / SCRIC (Service Central de Recherches et d'Investigations Criminelles)",
+    "nature_litige": "Droits politiques / Contestation électorale / Sûreté de l'État",
+    "organisations_alertees": ["Avocats de la défense", "Parti MPDD"],
+    "contexte": "Arrêté après avoir revendiqué la victoire à la présidentielle du 22 février 2020. Avait refusé de répondre aux trois premières convocations, se faisant représenter par ses avocats.",
+    "source": "https://www.jeuneafrique.com/931465/politique/togo-arrestation-de-lopposant-agbeyome-kodjo/"
+  }
+]
