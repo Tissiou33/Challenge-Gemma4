@@ -29,12 +29,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "npm"
-          cache-dependency-path: togo-legal-guide-main/package-lock.json
 
       - name: Install dependencies
         working-directory: ./togo-legal-guide-main
-        run: npm ci
+        run: npm install
 
       - name: Build the app
         working-directory: ./togo-legal-guide-main
