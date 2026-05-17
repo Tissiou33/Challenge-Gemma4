@@ -29,14 +29,20 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: "npm"
+          cache-dependency-path: togo-legal-guide-main/package-lock.json
 
       - name: Install dependencies
         working-directory: ./togo-legal-guide-main
-        run: npm install
+        run: npm ci
 
       - name: Build the app
         working-directory: ./togo-legal-guide-main
         run: npm run build
+
+      - name: Ensure static entrypoint
+        working-directory: ./togo-legal-guide-main
+        run: node ./scripts/create-pages-index.mjs
 
       - name: Disable Jekyll
         working-directory: ./togo-legal-guide-main
