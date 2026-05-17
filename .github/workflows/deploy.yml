@@ -38,7 +38,7 @@ jobs:
 
       - name: Build the app
         working-directory: ./togo-legal-guide-main
-        run: npm run build
+        run: npm run build:pages
 
       - name: Ensure static entrypoint
         working-directory: ./togo-legal-guide-main
